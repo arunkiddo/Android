@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Monish Suresh\.android\build-cache\2772611657bea822310d846a3ccad17723ed7886\output\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="E:\New folder (2)\ChatBot-master\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_992386c4507261a135f3b4bd0248935112331a64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="E:\New folder (2)\ChatBot-master\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_9ade5ec4e43d9f0dedde29f0e205b2f48594e1c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\New folder (2)\ChatBot-master\app\libs\joda-time-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f79e353ef77da6710e1f10d34fc3698eaaacbca">
+        <dex dex="E:\New folder (2)\ChatBot-master\app\build\intermediates\pre-dexed\debug\joda-time-2.1_9f366a8cb663c88b34cf078316b0bf0ff58fc727.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\New folder (2)\ChatBot-master\app\libs\sanmoku-0.0.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8c292fb2b320f4cf191f095825b072eea5e23b8">
+        <dex dex="E:\New folder (2)\ChatBot-master\app\build\intermediates\pre-dexed\debug\sanmoku-0.0.5_219880ba7800980f796badd2d53adefe07745182.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Monish Suresh\.android\build-cache\2772611657bea822310d846a3ccad17723ed7886\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="E:\New folder (2)\ChatBot-master\app\build\intermediates\pre-dexed\debug\classes_e77af7fe282ffdd914f18bd07423e61e148d4044.jar" />
+    </item>
+
+</items>

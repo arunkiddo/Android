@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_listitem_left.xml",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\layout\\chat_listitem_left.xml"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_listitem_right.xml",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\layout\\chat_listitem_right.xml"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_brain_log.xml",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\layout\\dialog_brain_log.xml"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

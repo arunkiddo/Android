@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bubble_yellow.9.png",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\drawable\\bubble_yellow.9.png"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_in.9.png",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\drawable\\msg_in.9.png"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bubble_green.9.png",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\drawable\\bubble_green.9.png"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user_placeholder.png",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\drawable\\user_placeholder.png"
+    },
+    {
+        "merged": "E:\\New folder (2)\\ChatBot-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\msg_out.9.png",
+        "source": "E:\\New folder (2)\\ChatBot-master\\app\\src\\main\\res\\drawable\\msg_out.9.png"
+    }
+]
