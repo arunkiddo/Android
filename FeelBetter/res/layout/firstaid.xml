@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+<!--          first  aid  table  -->
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:scrollbars="horizontal|vertical" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshape" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1"
+                    android:background="#607D8B" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ACCIDENT" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PAIN" />
+
+                    <TextView
+                        android:id="@+id/txtfrac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FRACTURE" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CUT" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BURN" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_margin="2dp"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HAND" />
+
+                    <TextView
+                        android:id="@+id/txth1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="pressure directly with your hand" />
+
+                    <TextView
+                        android:id="@+id/txth2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Apply an ice pack" />
+
+                    <TextView
+                        android:id="@+id/txth3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Apply an antibiotic ointment" />
+
+                    <TextView
+                        android:id="@+id/txth4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="apply aloe vera cream" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_margin="2dp"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LEG" />
+
+                    <TextView
+                        android:id="@+id/txtl1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Muscle cramps are a common ailment, especially in the legs " />
+
+                    <TextView
+                        android:id="@+id/txtl2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+
+                    <TextView
+                        android:id="@+id/txtl3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+
+                    <TextView
+                        android:id="@+id/txtl4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_margin="2dp"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HEAD" />
+
+                    <TextView
+                        android:id="@+id/txthd1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="take headachge tablet or drug" />
+
+                    <TextView
+                        android:id="@+id/txthd2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+
+                    <TextView
+                        android:id="@+id/txthd3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+
+                    <TextView
+                        android:id="@+id/txthd4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_margin="2dp"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FACE" />
+
+                    <TextView
+                        android:id="@+id/txtf1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+
+                    <TextView
+                        android:id="@+id/txtf2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+
+                    <TextView
+                        android:id="@+id/txtf3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="call medical care" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1"
+                    android:background="#607D8B" >
+
+                    <TextView
+                        android:id="@+id/txtt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ACCIDENT" />
+
+                    <TextView
+                        android:id="@+id/txtt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BLEEDING" />
+
+                    <TextView
+                        android:id="@+id/txtt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PAIN" />
+
+                    <TextView
+                        android:id="@+id/txtt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CUT" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/txtc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EAR" />
+                    
+                     <TextView
+                        android:id="@+id/txtE1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" Bruising or redness" />
+                     
+                       <TextView
+                        android:id="@+id/txtE2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" Give acetaminophen or ibuprofen as needed to relieve pain " />
+                     
+                        <TextView
+                        android:id="@+id/txtE3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" Call the doctor " />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/txtc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NOSE" />
+                    
+                      <TextView
+                        android:id="@+id/txtN1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" See a Health Care Provider " />
+                      
+                        <TextView
+                        android:id="@+id/txtN2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  See a Health Care Provider" />
+                      
+                        <TextView
+                        android:id="@+id/txtN3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  See a Health Care Provider " />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_margin="2dip"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/txtc3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MOUTH" />
+
+                 
+                    
+                     <TextView
+                        android:id="@+id/txtm1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" Call your dentist " />
+                     
+                      <TextView
+                        android:id="@+id/txtm2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  Call your dentist " />
+                      
+                       <TextView
+                        android:id="@+id/txtm3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="  Call your dentist " />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+        
+           <Button
+               android:id="@+id/btnfaidcls"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Back" />
+
+    </LinearLayout>
+
+</ScrollView>

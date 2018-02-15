@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.feelbetter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+           <activity
+            android:name="com.example.feelbetter.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            <activity android:name="com.example.feelbetter.Allopathy"
+                android:label="@string/allpat"></activity>
+             <activity android:name="com.example.feelbetter.Siddtha"
+                 android:label="@string/sidda"></activity>
+             
+                <activity android:name="com.example.feelbetter.AllopatParm"
+                 android:label="@string/allpat"></activity>
+                 <activity android:name="com.example.feelbetter.AllopatDoctor"
+                 android:label="@string/allpat"></activity>
+                 
+                   <activity android:name="com.example.feelbetter.Doctor"
+                 android:label="@string/app_name"></activity>
+                   
+                 
+                   
+                     <activity android:name="com.example.feelbetter.Pharmacy"
+                 android:label="@string/app_name"></activity>
+                  <activity android:name="com.example.feelbetter.SiddaDoctor"
+                 android:label="@string/sidda"></activity>
+                  
+                    <activity android:name="com.example.feelbetter.SiddaParm"
+                 android:label="@string/sidda"></activity>
+                 <activity android:name="com.example.feelbetter.FirstAid"
+                 android:label="@string/frsaid"></activity>
+    </application>
+
+</manifest>

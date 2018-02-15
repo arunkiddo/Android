@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+       >
+
+        <Button
+            android:id="@+id/btnallbat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ALLOPATHY" />
+
+        <Button
+            android:id="@+id/btnsid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SIDDHA" />
+
+        <Button
+            android:id="@+id/btnfrsaid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FIRSTAID" />
+
+        <Button
+            android:id="@+id/btndoct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DOCTOR DETAILS" />
+
+        <Button
+            android:id="@+id/btnphar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PHARMACY DETAILS" />
+
+        <Button
+            android:id="@+id/btncls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="EXIT" />
+    </LinearLayout>
+
+</RelativeLayout>
