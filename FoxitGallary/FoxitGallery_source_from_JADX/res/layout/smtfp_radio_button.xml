@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:id="@id/dialog_radio_group" android:paddingTop="@dimen/smtfp_activity_margin" android:paddingBottom="@dimen/smtfp_activity_margin" android:layout_width="-1" android:layout_height="-2" />

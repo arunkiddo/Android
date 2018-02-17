@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView android:id="@c1371a/ImageView_image" android:layout_width="-1" android:layout_height="-1" android:scaleType="7" android:adjustViewBounds="true" />
+    <com.theartofdev.edmodo.cropper.CropOverlayView android:id="@c1371a/CropOverlayView" android:visibility="1" android:layout_width="-1" android:layout_height="-1" />
+    <ProgressBar android:layout_gravity="11" android:id="@c1371a/CropProgressBar" android:layout_width="-2" android:layout_height="-2" />
+</merge>

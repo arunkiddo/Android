@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.simplemobiletools.gallery.views.MyImageView android:id="@id/medium_thumbnail" android:layout_width="-1" android:layout_height="-1" android:foreground="@drawable/selector" />

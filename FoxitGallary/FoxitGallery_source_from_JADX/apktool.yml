@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FoxitGallery.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '24'
+sharedLibrary: false
+unknownFiles:
+  kotlin/kotlin.kotlin_builtins: '8'
+  kotlin/annotation/annotation.kotlin_builtins: '8'
+  kotlin/collections/collections.kotlin_builtins: '8'
+  kotlin/internal/internal.kotlin_builtins: '8'
+  kotlin/ranges/ranges.kotlin_builtins: '8'
+  kotlin/reflect/reflect.kotlin_builtins: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '2'
+  versionName: '1.0'

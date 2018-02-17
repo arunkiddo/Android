@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView app:id="@id/directories_grid" app:layout_width="-1" app:layout_height="-2" app:layoutManager="android.support.v7.widget.GridLayoutManager" app:spanCount="@integer/directory_columns" />

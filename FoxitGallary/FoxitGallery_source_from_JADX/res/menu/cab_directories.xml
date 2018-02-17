@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@mipmap/info" app:id="@id/cab_properties" app:title="@string/properties" app:showAsAction="1" />
+    <item app:icon="@mipmap/pin" app:id="@id/cab_pin" app:title="@string/pin_folder" app:showAsAction="1" />
+    <item app:icon="@mipmap/unpin" app:id="@id/cab_unpin" app:title="@string/unpin_folder" app:showAsAction="1" />
+    <item app:icon="@mipmap/rename" app:id="@id/cab_rename" app:title="@string/rename" app:showAsAction="1" />
+    <item app:icon="@mipmap/hide" app:id="@id/cab_hide" app:title="@string/hide_folder" app:showAsAction="1" />
+    <item app:icon="@mipmap/unhide" app:id="@id/cab_unhide" app:title="@string/unhide_folder" app:showAsAction="1" />
+    <item app:icon="@mipmap/copy" app:id="@id/cab_copy_move" app:title="@string/copy_move" app:showAsAction="1" />
+    <item app:icon="@mipmap/delete" app:id="@id/cab_delete" app:title="@string/delete" app:showAsAction="1" />
+</menu>

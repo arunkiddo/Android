@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <selector>
+            <item android:state_selected="true" android:drawable="@color/activated_item_foreground" />
+        </selector> />
+    <item>
+        <ripple android:color="@color/pressed_item_foreground">
+            <item android:id="0x102002e">
+                <color android:color="0x106000b" />
+            </item>
+        </ripple>
+    </item>
+</layer-list>

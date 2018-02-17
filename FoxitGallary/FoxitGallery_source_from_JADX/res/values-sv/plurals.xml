@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="folders_deleted">
+        <item quantity="other">%1$d mappar borttagna</item>
+        <item quantity="one">1 mapp borttagen</item>
+    </plurals>
+    <plurals name="smtfp_items">
+        <item quantity="other">%1$d objekt</item>
+        <item quantity="one">1 objekt</item>
+    </plurals>
+</resources>

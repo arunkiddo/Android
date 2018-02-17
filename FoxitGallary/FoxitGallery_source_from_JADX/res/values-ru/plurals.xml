@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="folders_deleted">
+        <item quantity="other">Папок удалено: %1$d</item>
+        <item quantity="one">1 папка удалена</item>
+    </plurals>
+    <plurals name="smtfp_items">
+        <item quantity="other">объектов: %1$d</item>
+        <item quantity="one">1 объект</item>
+    </plurals>
+</resources>

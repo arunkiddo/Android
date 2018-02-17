@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/smtfp_write_permissions_dialog_holder" android:padding="@dimen/smtfp_activity_margin" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/smtfp_write_permissions_dialog_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/smtfp_activity_margin" android:text="@string/smtfp_confirm_storage_access_text" />
+    <ImageView android:id="@id/smtfp_write_permissions_dialog_image" android:layout_width="-1" android:layout_height="-2" android:src="@mipmap/smtfp_write_storage" android:scaleType="3" android:adjustViewBounds="true" />
+</LinearLayout>

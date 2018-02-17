@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@drawable/crop_image_menu_rotate_left" app:id="@c1371a/crop_image_menu_rotate_left" app:visible="false" app:title="@string/crop_image_menu_rotate_left" app:showAsAction="1" />
+    <item app:icon="@drawable/crop_image_menu_rotate_right" app:id="@c1371a/crop_image_menu_rotate_right" app:title="@string/crop_image_menu_rotate_right" app:showAsAction="1" />
+    <item app:id="@c1371a/crop_image_menu_crop" app:title="@string/crop_image_menu_crop" app:showAsAction="2" />
+</menu>

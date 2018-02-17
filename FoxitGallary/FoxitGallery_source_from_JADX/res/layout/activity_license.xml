@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/license_holder" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/license" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/license_notice" android:layout_width="-2" android:layout_height="-2" android:text="@string/notice" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_kotlin_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/kotlin_title" />
+        <TextView android:id="@id/license_kotlin_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/kotlin_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_subsampling_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/subsampling_title" />
+        <TextView android:id="@id/license_subsampling_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/subsampling_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_glide_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/glide_title" />
+        <TextView android:id="@id/license_glide_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/glide_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_cropper_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/cropper_title" />
+        <TextView android:id="@id/license_cropper_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/cropper_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_multiselect_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/multiselect_title" />
+        <TextView android:id="@id/license_multiselect_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/multiselect_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_rtl_viewpager_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/rtl_viewpager_title" />
+        <TextView android:id="@id/license_rtl_viewpager_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/rtl_viewpager_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_filepicker_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/filepicker_title" />
+        <TextView android:id="@id/license_filepicker_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/filepicker_text" />
+        <TextView android:textColor="@color/colorPrimary" android:id="@id/license_fileproperties_title" android:paddingTop="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:text="@string/fileproperties_title" />
+        <TextView android:id="@id/license_fileproperties_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/fileproperties_text" />
+    </LinearLayout>
+</ScrollView>

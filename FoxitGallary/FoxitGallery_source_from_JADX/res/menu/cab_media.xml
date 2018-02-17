@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@mipmap/delete" app:id="@id/cab_delete" app:title="@string/delete" app:showAsAction="1" />
+    <item app:icon="@mipmap/share" app:id="@id/cab_share" app:title="@string/share" app:showAsAction="1" />
+    <item app:icon="@mipmap/info" app:id="@id/cab_properties" app:title="@string/properties" app:showAsAction="1" />
+    <item app:icon="@mipmap/copy" app:id="@id/cab_copy_move" app:title="@string/copy_move" app:showAsAction="1" />
+    <item app:icon="@mipmap/rename" app:id="@id/cab_rename" app:title="@string/rename" app:showAsAction="1" />
+    <item app:icon="@mipmap/edit" app:id="@id/cab_edit" app:title="@string/edit" app:showAsAction="1" />
+    <item app:icon="@mipmap/select_all" app:id="@id/cab_select_all" app:title="@string/select_all" app:showAsAction="1" />
+</menu>

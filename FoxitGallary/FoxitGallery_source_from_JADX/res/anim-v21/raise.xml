@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_activated="true">
+        <objectAnimator android:duration="0x10e0000" android:valueTo="@dimen/touch_raise" android:valueType="0" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0x10e0000" android:valueTo="0dp" android:valueType="0" android:propertyName="translationZ" />
+    </item>
+</selector>

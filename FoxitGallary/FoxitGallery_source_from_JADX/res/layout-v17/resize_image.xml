@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@id/rename_directory_holder" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/image_width_label" android:layout_width="100dp" android:layout_height="-2" android:text="@string/width" />
+    <EditText android:id="@id/image_width" android:layout_width="100dp" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_margin" android:maxLines="1" android:maxLength="6" android:layout_below="@id/image_width_label" android:inputType="2" />
+    <TextView android:id="@id/image_height_label" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="@string/height" android:layout_toRightOf="@id/image_width_label" android:layout_marginStart="50dp" />
+    <EditText android:id="@id/image_height" android:layout_width="100dp" android:layout_height="-2" android:maxLines="1" android:maxLength="6" android:layout_below="@id/image_width_label" android:layout_alignLeft="@id/image_height_label" android:inputType="2" android:layout_alignStart="@id/image_height_label" />
+    <CheckBox android:id="@id/keep_aspect_ratio" android:paddingTop="@dimen/activity_margin" android:paddingBottom="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/activity_margin" android:checked="true" android:text="@string/keep_aspect_ratio" android:layout_below="@id/image_height" />
+</RelativeLayout>

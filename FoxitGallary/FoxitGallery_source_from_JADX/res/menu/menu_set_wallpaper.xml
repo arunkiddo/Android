@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@mipmap/rotate" app:id="@id/rotate" app:title="@string/rotate" app:showAsAction="1" />
+    <item app:icon="@mipmap/check" app:id="@id/save" app:title="@string/save" app:showAsAction="1" />
+</menu>

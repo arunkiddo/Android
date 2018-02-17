@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/sorting_dialog_holder" android:paddingLeft="@dimen/activity_margin" android:paddingTop="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@dimen/details_text_size" android:id="@id/source_label" android:layout_width="-2" android:layout_height="-2" android:text="@string/source" />
+    <TextView android:id="@id/source" android:paddingTop="@dimen/small_padding" android:paddingRight="@dimen/small_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginBottom="@dimen/activity_margin" />
+    <TextView android:textSize="@dimen/details_text_size" android:id="@id/destination_label" android:layout_width="-2" android:layout_height="-2" android:text="@string/destination" />
+    <TextView android:id="@id/destination" android:paddingTop="@dimen/small_padding" android:paddingRight="@dimen/small_padding" android:paddingBottom="@dimen/small_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginBottom="@dimen/activity_margin" android:text="@string/select_destination" />
+    <RadioGroup android:id="@id/dialog_radio_group" android:layout_width="-1" android:layout_height="-2" android:checkedButton="@id/dialog_radio_copy">
+        <RadioButton android:id="@id/dialog_radio_copy" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/medium_padding" android:text="@string/copy" />
+        <RadioButton android:id="@id/dialog_radio_move" android:layout_width="-1" android:layout_height="-2" android:text="@string/move" />
+    </RadioGroup>
+</LinearLayout>

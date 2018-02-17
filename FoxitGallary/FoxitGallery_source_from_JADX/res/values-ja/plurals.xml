@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="folders_deleted">
+        <item quantity="other">%1$d フォルダーを削除しました</item>
+        <item quantity="one">1 フォルダーを削除しました</item>
+    </plurals>
+    <plurals name="smtfp_items">
+        <item quantity="other">%1$d アイテム</item>
+        <item quantity="one">1 アイテム</item>
+    </plurals>
+</resources>

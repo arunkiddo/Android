@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/rename_file_holder" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/file_path" android:layout_width="-2" android:layout_height="-2" />
+    <EditText android:id="@id/file_name" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_margin" android:singleLine="true" />
+    <TextView android:id="@id/file_extension_label" android:layout_width="-2" android:layout_height="-2" android:text="@string/extension" />
+    <EditText android:id="@id/file_extension" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_margin" android:singleLine="true" />
+</LinearLayout>

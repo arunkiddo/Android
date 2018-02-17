@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sorting_dialog_scrollview" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/sorting_dialog_holder" android:paddingLeft="@dimen/activity_margin" android:paddingTop="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2">
+        <RadioGroup android:id="@id/sorting_dialog_radio_sorting" android:layout_width="-1" android:layout_height="-2">
+            <RadioButton android:id="@id/sorting_dialog_radio_name" android:paddingTop="@dimen/medium_padding" android:paddingBottom="@dimen/medium_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/name" />
+            <RadioButton android:id="@id/sorting_dialog_radio_size" android:paddingTop="@dimen/medium_padding" android:paddingBottom="@dimen/medium_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/size" />
+            <RadioButton android:id="@id/sorting_dialog_radio_last_modified" android:paddingTop="@dimen/medium_padding" android:paddingBottom="@dimen/medium_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/last_modified" />
+            <RadioButton android:id="@id/sorting_dialog_radio_date_taken" android:paddingTop="@dimen/medium_padding" android:paddingBottom="@dimen/medium_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/date_taken" />
+        </RadioGroup>
+        <ImageView android:background="@color/light_grey" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="@dimen/medium_padding" android:layout_marginBottom="@dimen/medium_padding" />
+        <RadioGroup android:id="@id/sorting_dialog_radio_order" android:layout_width="-1" android:layout_height="-2">
+            <RadioButton android:id="@id/sorting_dialog_radio_ascending" android:paddingTop="@dimen/medium_padding" android:paddingBottom="@dimen/medium_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/ascending" />
+            <RadioButton android:id="@id/sorting_dialog_radio_descending" android:paddingTop="@dimen/medium_padding" android:paddingBottom="@dimen/medium_padding" android:layout_width="-1" android:layout_height="-2" android:text="@string/descending" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

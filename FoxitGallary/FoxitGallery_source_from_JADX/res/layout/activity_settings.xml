@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/settings_scrollview" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@id/settings_holder" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:id="@id/settings_dark_theme_holder" android:background="?unknown_attr_ref: 7f010063" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/settings_padding">
+            <TextView android:id="@id/settings_dark_theme_label" android:paddingLeft="@dimen/settings_padding" android:layout_width="-2" android:layout_height="-2" android:text="@string/dark_theme" android:layout_centerVertical="true" />
+            <android.support.v7.widget.SwitchCompat android:id="@id/settings_dark_theme" android:background="@c1373c/View_android_theme" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/settings_same_sorting_holder" android:background="?unknown_attr_ref: 7f010063" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/settings_padding">
+            <TextView android:id="@id/settings_same_sorting_label" android:paddingLeft="@dimen/settings_padding" android:layout_width="-2" android:layout_height="-2" android:text="@string/same_sorting" android:layout_centerVertical="true" />
+            <android.support.v7.widget.SwitchCompat android:id="@id/settings_same_sorting" android:background="@c1373c/View_android_theme" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/settings_show_hidden_folders_holder" android:background="?unknown_attr_ref: 7f010063" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/settings_padding">
+            <TextView android:id="@id/settings_show_hidden_folders_label" android:paddingLeft="@dimen/settings_padding" android:layout_width="-2" android:layout_height="-2" android:text="@string/show_hidden_folders" android:layout_centerVertical="true" />
+            <android.support.v7.widget.SwitchCompat android:id="@id/settings_show_hidden_folders" android:background="@c1373c/View_android_theme" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/settings_autoplay_videos_holder" android:background="?unknown_attr_ref: 7f010063" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/settings_padding">
+            <TextView android:id="@id/settings_autoplay_videos_label" android:paddingLeft="@dimen/settings_padding" android:layout_width="-2" android:layout_height="-2" android:text="@string/autoplay_videos" android:layout_centerVertical="true" />
+            <android.support.v7.widget.SwitchCompat android:id="@id/settings_autoplay_videos" android:background="@c1373c/View_android_theme" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/settings_show_media_holder" android:paddingLeft="@dimen/activity_margin" android:paddingTop="@dimen/activity_margin" android:paddingRight="@dimen/settings_padding" android:paddingBottom="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/settings_padding">
+            <TextView android:id="@id/settings_show_media_label" android:paddingLeft="@dimen/settings_padding" android:layout_width="-2" android:layout_height="-2" android:text="@string/show_media" android:layout_centerVertical="true" />
+            <android.support.v7.widget.AppCompatSpinner android:entries="@array/show_media_items" android:id="@id/settings_show_media" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

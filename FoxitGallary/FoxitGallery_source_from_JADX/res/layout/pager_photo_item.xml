@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/photo_holder" android:layout_width="-1" android:layout_height="-1">
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView android:id="@id/photo_view" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@id/gif_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

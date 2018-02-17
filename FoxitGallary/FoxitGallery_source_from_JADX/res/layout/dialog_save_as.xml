@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/save_as_holder" android:padding="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@dimen/details_text_size" android:id="@id/file_path_label" android:layout_width="-2" android:layout_height="-2" android:text="@string/path" />
+    <TextView android:id="@id/file_path" android:paddingTop="@dimen/small_padding" android:paddingRight="@dimen/small_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginBottom="@dimen/activity_margin" />
+    <EditText android:id="@id/file_name" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_margin" android:singleLine="true" />
+    <TextView android:id="@id/file_extension_label" android:layout_width="-2" android:layout_height="-2" android:text="@string/extension" />
+    <EditText android:id="@id/file_extension" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_margin" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@mipmap/check" app:id="@id/save_as" app:title="@string/save_as" app:showAsAction="2" />
+    <item app:icon="@mipmap/rotate" app:id="@id/rotate" app:title="@string/rotate" app:showAsAction="1" />
+    <item app:icon="@mipmap/resize" app:id="@id/resize" app:title="@string/resize" app:showAsAction="1" />
+</menu>

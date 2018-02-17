@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="folders_deleted">
+        <item quantity="other">%1$d pastas apagadas</item>
+        <item quantity="one">1 pasta apagada</item>
+    </plurals>
+    <plurals name="smtfp_items">
+        <item quantity="other">%1$d itens</item>
+        <item quantity="one">1 item</item>
+    </plurals>
+</resources>

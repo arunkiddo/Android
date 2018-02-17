@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_holder" android:layout_width="-1" android:layout_height="-1">
+    <SurfaceView android:id="@id/video_surface" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/video_play_outline" android:background="0x106000d" android:layout_width="@dimen/play_outline_size_big" android:layout_height="@dimen/play_outline_size_big" android:src="@mipmap/play_outline_big" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/video_time_holder" android:background="@drawable/gradient_background" android:paddingLeft="@dimen/timer_padding" android:paddingRight="@dimen/timer_padding" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <TextView android:textColor="0x106000b" android:gravity="10" android:id="@id/video_curr_time" android:layout_width="-2" android:layout_height="-1" android:text="00:00" android:layout_alignTop="@id/video_seekbar" android:layout_alignBottom="@id/video_seekbar" android:layout_alignParentLeft="true" />
+        <SeekBar android:id="@id/video_seekbar" android:paddingTop="@dimen/activity_margin" android:paddingBottom="@dimen/activity_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:layout_toLeftOf="@id/video_duration" android:layout_toRightOf="@id/video_curr_time" />
+        <TextView android:textColor="0x106000b" android:gravity="10" android:id="@id/video_duration" android:layout_width="-2" android:layout_height="-2" android:text="00:00" android:layout_alignTop="@id/video_seekbar" android:layout_alignBottom="@id/video_seekbar" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

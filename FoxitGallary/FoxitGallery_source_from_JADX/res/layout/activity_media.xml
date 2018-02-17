@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout app:id="@id/media_holder" app:layout_width="-1" app:layout_height="-2">
+    <com.simplemobiletools.gallery.views.MyScalableRecyclerView app:id="@id/media_grid" app:scrollbars="200" app:layout_width="-1" app:layout_height="-1" app:layoutManager="android.support.v7.widget.GridLayoutManager" app:spanCount="@integer/media_columns" />
+</android.support.v4.widget.SwipeRefreshLayout>

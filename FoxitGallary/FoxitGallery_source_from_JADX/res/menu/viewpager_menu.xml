@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/menu_copy_move" app:title="@string/copy_move" app:showAsAction="0" />
+    <item app:id="@id/menu_set_as_wallpaper" app:title="@string/set_as_wallpaper" app:showAsAction="0" />
+    <item app:id="@id/menu_open_with" app:title="@string/open_with" app:showAsAction="0" />
+    <item app:icon="@mipmap/delete" app:id="@id/menu_delete" app:title="@string/delete" app:showAsAction="1" />
+    <item app:icon="@mipmap/share" app:id="@id/menu_share" app:title="@string/share" app:showAsAction="1" />
+    <item app:icon="@mipmap/edit" app:id="@id/menu_edit" app:title="@string/edit" app:showAsAction="1" />
+    <item app:icon="@mipmap/rename" app:id="@id/menu_rename" app:title="@string/rename" app:showAsAction="1" />
+    <item app:icon="@mipmap/info" app:id="@id/menu_properties" app:title="@string/properties" app:showAsAction="1" />
+</menu>

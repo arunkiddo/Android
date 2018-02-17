@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_holder" android:background="?unknown_attr_ref: 7f010063" android:paddingRight="@dimen/smtfp_activity_margin" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/item_icon" android:paddingTop="@dimen/smtfp_medium_margin" android:paddingBottom="@dimen/smtfp_medium_margin" android:layout_width="@dimen/smtfp_icon_size" android:layout_height="@dimen/smtfp_icon_size" android:src="@mipmap/smtfp_directory" />
+    <TextView android:ellipsize="3" android:id="@id/item_name" android:paddingLeft="@dimen/smtfp_small_margin" android:paddingTop="@dimen/smtfp_small_margin" android:layout_width="-1" android:layout_height="-2" android:text="Directory" android:maxLines="3" android:layout_toRightOf="@id/item_icon" android:layout_alignTop="@id/item_icon" />
+    <TextView android:textSize="@dimen/smtfp_details_text_size" android:id="@id/item_details" android:paddingLeft="@dimen/smtfp_small_margin" android:layout_width="-1" android:layout_height="-2" android:text="1 KB" android:layout_toRightOf="@id/item_icon" android:layout_below="@id/item_name" />
+</RelativeLayout>

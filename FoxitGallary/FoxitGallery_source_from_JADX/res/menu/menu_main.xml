@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@mipmap/sort" app:id="@id/sort" app:title="@string/sort_by" app:showAsAction="1" />
+    <item app:icon="@mipmap/camera" app:id="@id/open_camera" app:title="@string/open_camera" app:showAsAction="1" />
+    <item app:id="@id/show_all" app:title="@string/show_all" app:showAsAction="0" />
+    <item app:id="@id/settings" app:title="@string/settings" app:showAsAction="0" />
+    <item app:id="@id/about" app:title="@string/about" app:showAsAction="0" />
+</menu>

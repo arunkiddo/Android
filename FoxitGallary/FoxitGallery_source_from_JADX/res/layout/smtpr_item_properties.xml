@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/smtpr_properties_scrollview" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/smtpr_properties_holder" android:paddingLeft="@dimen/smtpr_activity_margin" android:paddingRight="@dimen/smtpr_activity_margin" android:layout_width="-1" android:layout_height="-2" />
+</ScrollView>

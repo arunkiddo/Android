@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:id="@id/coordinator_layout" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v4.widget.SwipeRefreshLayout app:id="@id/directories_holder" app:layout_width="-1" app:layout_height="-2">
+        <com.simplemobiletools.gallery.views.MyScalableRecyclerView app:id="@id/directories_grid" app:scrollbars="200" app:layout_width="-1" app:layout_height="-2" app:layoutManager="android.support.v7.widget.GridLayoutManager" app:spanCount="@integer/directory_columns" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.design.widget.CoordinatorLayout>

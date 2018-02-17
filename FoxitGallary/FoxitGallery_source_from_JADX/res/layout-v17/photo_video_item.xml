@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/media_item_holder" android:padding="1px" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/photo_video_tmb" />
+    <ImageView android:id="@id/play_outline" android:visibility="2" android:layout_width="@dimen/play_outline_size" android:layout_height="@dimen/play_outline_size" android:layout_margin="@dimen/tiny_margin" android:src="@mipmap/play_outline" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/details_text_size" android:textColor="0x106000b" android:gravity="50" android:id="@id/file_name" android:background="@drawable/gradient_background" android:paddingLeft="@dimen/small_padding" android:paddingRight="@dimen/small_padding" android:paddingBottom="@dimen/small_padding" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/play_outline_size" android:maxLines="3" android:layout_alignParentBottom="true" />
+</RelativeLayout>

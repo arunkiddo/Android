@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="folders_deleted">
+        <item quantity="other">%1$d carpetas eliminadas</item>
+        <item quantity="one">1 carpeta eliminada</item>
+    </plurals>
+    <plurals name="smtfp_items">
+        <item quantity="other">%1$d elementos</item>
+        <item quantity="one">1 elemento</item>
+    </plurals>
+</resources>
